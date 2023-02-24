@@ -14,9 +14,9 @@ app.use(express.static("public",options));
 // 	res.sendFile(__dirname+"/PathFinder.java");
 // });
 
-app.listen(port, function(){
-    console.log("Server running on http://localhost:"+port);
-});
+// app.listen(port, function(){
+//     console.log("Server running on http://localhost:"+port);
+// });
 
  const  executeJava = function hello()  {
     return new Promise((resolve, reject) => {
